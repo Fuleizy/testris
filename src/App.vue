@@ -1,6 +1,6 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
-import Tetris from './components/MyTetris'
+import Tetris from './components/MyTetris.vue'
 </script>
 
 <template>
