@@ -1,6 +1,17 @@
 <template>
   <h1>Score: {{ score }}</h1>
   <canvas ref="canvas"></canvas>
+  <br />
+  <bold>Instructions:</bold>
+  <br />
+  <bold>'a': move piece left</bold>
+  <br />
+  <bold>'d': move piece right</bold>
+  <br />
+  <bold>'s': move piece down</bold>
+  <br />
+  <bold>'w': rotate piece</bold>
+  <br />
 </template>
 
 <script setup>
